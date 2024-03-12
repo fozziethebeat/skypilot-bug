@@ -1,0 +1,15 @@
+resources:
+  cloud: aws
+  region: us-east-1
+
+workdir: .
+
+setup: |
+  set -e
+  conda create -n example python=3.10 -y && conda activate example 
+  pip install -e ".[dev]"
+
+run: |
+  set -e
+  conda activate example 
+  python -m example.run
