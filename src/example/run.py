@@ -1,3 +1,3 @@
-from .utils import job
+from .data.utils import job
 
 job()

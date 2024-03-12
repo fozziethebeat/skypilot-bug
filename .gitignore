@@ -1,0 +1,10 @@
+# Offending exclude
+data/*
+
+# Some normal excludes
+*.swp
+__pycache__/
+.eggs/
+*.egg-info/
+*.egg
+
