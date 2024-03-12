@@ -1,1 +1,3 @@
-print("hello")
+from .utils import job
+
+job()
